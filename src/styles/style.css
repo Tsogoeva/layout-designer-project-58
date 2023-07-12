@@ -100,7 +100,7 @@
 }
 
 .column-2 p:nth-child(2) {
-	margin: 20px 0 40px;
+	margin: 13px 0 50px;
 }
 
 
@@ -131,11 +131,13 @@
 /** BUTTON **/
 
 .button {
-	padding: 12px 24px;
+	padding: 10px 26px 12px;
 	background: var(--basic);
 	color: #f5f4f0;
 
+	font-size: 22px;
 	font-weight: 700;
+	font-variant: small-caps;
 }
 
 .button:visited {
@@ -166,7 +168,7 @@ body {
 /** HEADER **/
 
 .header-image {
-	width: 100%;
+	width: 1083px;
 	height: 525px;
 
 	position: absolute;
@@ -177,7 +179,8 @@ body {
 }
 
 .offset {
-	margin-bottom: 200px;
+	margin-top: 5px;
+	margin-bottom: 195px;
 }
 
 .header-height {
