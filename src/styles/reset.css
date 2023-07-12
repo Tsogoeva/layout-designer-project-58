@@ -5,9 +5,8 @@
   }
   
   *,
-  *:before,
-  *:after {
-	-webkit-box-sizing: border-box;
+  *::before,
+  *::after {
 	box-sizing: border-box;
   }
   
@@ -16,12 +15,20 @@
 	outline: none;
   }
   
-  a:focus,
-  a:active {
-	outline: none;
-	color: #000000;
-  }
   
+  a,
+  a:visited,
+  a:hover {
+	  text-decoration: none;
+	  color: #000;
+	}
+	
+	a:focus,
+	a:active {
+		outline: none;
+		color: #000;
+	}
+
   nav,
   footer,
   header,
@@ -34,11 +41,8 @@
 	height: 100%;
 	width: 100%;
 	line-height: 1;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-  }
-  
+	}
+
   input,
   button,
   textarea {
@@ -58,16 +62,6 @@
 	border: 0;
   }
   
-  a,
-  a:visited {
-	text-decoration: none;
-	color: #000000;
-  }
-  
-  a:hover {
-	text-decoration: none;
-	color: #000000;
-  }
   
   ul,
   ol {
