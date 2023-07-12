@@ -99,11 +99,6 @@
 	flex-basis: 50%;
 }
 
-.column-2 p:nth-child(2) {
-	margin: 13px 0 50px;
-}
-
-
 /** STRUCTURE **/
 
 .section-structure {
@@ -167,6 +162,15 @@ body {
 
 /** HEADER **/
 
+.header-height {
+	height: 914px;
+}
+
+.header-margin-title {
+	margin-top: 5px;
+	margin-bottom: 195px;
+}
+
 .header-image {
 	width: 1083px;
 	height: 525px;
@@ -178,14 +182,10 @@ body {
 	z-index: 10;
 }
 
-.offset {
-	margin-top: 5px;
-	margin-bottom: 195px;
+.header-margin-p p:nth-child(2) {
+	margin: 13px 0 50px;
 }
 
-.header-height {
-	height: 914px;
-}
 
 
 
