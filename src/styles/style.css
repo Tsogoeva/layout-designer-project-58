@@ -306,6 +306,23 @@ body {
 	padding: 24px;
 }
 
+a:hover {
+	background-color: var(--basic);
+}
+
+a:hover span {
+	color: var(--white);
+}
+
+a:hover h4 {
+	color: var(--white);
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+a:hover p {
+	color: var(--white);
+}
+
 
 
 /** SECTION **/
