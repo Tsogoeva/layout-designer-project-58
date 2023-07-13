@@ -308,7 +308,7 @@ body {
 
 
 
-/** LIGHT SECTION **/
+/** SECTION **/
 
 .section-margin {
 	padding: 100px 0;
@@ -333,7 +333,6 @@ body {
 .general-title-dark {
 	color: var(--white-translucent);
 }
-
 
 .image {
 	width: 100%;
@@ -361,6 +360,9 @@ body {
 	color: var(--brown);
 }
 
+.section-margin-p {
+	padding-bottom: 15px;
+}
 
 
 /** FOOTER **/
