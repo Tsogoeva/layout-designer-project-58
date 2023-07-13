@@ -80,13 +80,17 @@
 	background-color: var(--basic-dark);
 }
 
+.background-brown {
+	background-color: var(--brown);
+}
+
 /** TITLE **/
 
 .title-orange {
 	color: var(--basic);
 }
 
-.title-light {
+.color-light {
 	color: var(--white);
 }
 
@@ -326,6 +330,11 @@ body {
 	color: var(--dark-translucent);
 }
 
+.general-title-dark {
+	color: var(--white-translucent);
+}
+
+
 .image {
 	width: 100%;
 	vertical-align: middle;
@@ -347,9 +356,13 @@ body {
 	color: var(--white);
 }
 
+.subtitle-section-dark {
+	background-color: var(--white);
+	color: var(--brown);
+}
 
 
-/** DARK SECTION **/
+
 /** FOOTER **/
 
 
