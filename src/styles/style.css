@@ -1,5 +1,5 @@
 :root {
-/** COLORS **/
+  /** COLORS **/
   --white: #fff;
   --white-translucent: #d7ccc0;
   --light: #f5f4f0;
@@ -11,7 +11,7 @@
   --brown: #b09a81;
   --blue: #1085c5;
 
-/** TITLE SIZE **/
+  /** TITLE SIZE **/
   --title-spacing: 1.2em;
   --title-size-level1: 72px;
   --title-size-level2: 60px;
@@ -60,12 +60,12 @@
   width: 100%;
   height: 100%;
 
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
 
-  content: '';
+  content: "";
 }
 
 .background-light {
@@ -250,7 +250,6 @@ body {
   color: var(--dark);
 }
 
-
 /** HEADER **/
 
 .header-margin-title {
@@ -276,7 +275,6 @@ body {
   padding: 10px 26px 12px;
 }
 
-
 /** MAIN **/
 
 .main-margin-h2 {
@@ -294,7 +292,6 @@ body {
 
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
-
 
 /** NAVIGATION **/
 
@@ -336,7 +333,6 @@ a:hover h4 {
 a:hover p {
   color: var(--white);
 }
-
 
 /** SECTION **/
 
@@ -394,7 +390,6 @@ a:hover p {
   padding-bottom: 15px;
 }
 
-
 /** FOOTER **/
 
 .footer-form-columns {
@@ -449,7 +444,7 @@ a:hover p {
 
 .footer-button::before {
   display: block;
-  content: '';
+  content: "";
   background-image: url("../images/send.svg");
 
   position: absolute;
