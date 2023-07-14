@@ -88,9 +88,15 @@
 
 h2 {
 	color: var(--basic);
-	font-size: var(--title-size-level1);
 	font-family: Neucha, serif;
+
+	display: block;
+    font-size: var(--title-size-level2);
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
 }
+
 
 .title-orange {
 	color: var(--basic);
