@@ -86,6 +86,12 @@
 
 /** TITLE **/
 
+h2 {
+	color: var(--basic);
+	font-size: var(--title-size-level1);
+	font-family: Neucha, serif;
+}
+
 .title-orange {
 	color: var(--basic);
 }
