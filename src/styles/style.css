@@ -61,7 +61,7 @@
 	height: 100%;
 
 	background-image: url('../images/background.png');
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
   	background-size: cover;
 	opacity: 0.1;
 
@@ -168,6 +168,10 @@
 	min-height: 850px;
 }
 
+.min-height-500 {
+	min-height: 500px;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -190,13 +194,16 @@
 /** BUTTON **/
 
 .button {
-	padding: 10px 26px 12px;
 	background: var(--basic);
 	color: var(--light);
+}
 
+.button-text {
 	font-size: 22px;
 	font-weight: 700;
 	font-variant: small-caps;
+
+	/* color: var(--light); */
 }
 
 .button:visited {
@@ -260,6 +267,10 @@ body {
 
 .header-margin-p p:nth-child(2) {
 	margin: 13px 0 50px;
+}
+
+.header-button-size {
+	padding: 10px 26px 12px;
 }
 
 
@@ -384,6 +395,96 @@ a:hover p {
 
 /** FOOTER **/
 
+.footer-form-columns {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
+.footer-structure {
+	padding: 96px 0;
+}
 
+.footer-offset-form {
+	padding: 40px 45px 39px 54px;
+	margin-bottom: 60px;
+}
 
+/* stylelint-disable-next-line no-descending-specificity */
+.footer-offset-form:nth-child(1) {
+	margin-top: 5px;
+}
+
+.form {
+	position: relative;
+}
+
+.label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+
+.input {
+	display: inline;
+	height: 50px;
+	width: 430px;
+	padding: 15px;
+}
+
+.input::placeholder {
+	font-size: 12px;
+}
+
+.footer-button {
+	position: relative;
+	width: 60px;
+	height: 50px;
+
+	top: -5px;
+	left: -10px;
+}
+
+.footer-button::before {
+	display: block;
+	content: '';
+	background-image: url("../images/send.svg");
+
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	/* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
+	bottom: 0;
+
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.size-12 {
+	margin-top: -5px;
+	font-size: 12px;
+}
+
+.footer-link {
+	text-decoration: underline;
+}
+
+.footer-link:hover {
+	background: none;
+	color: var(--basic);
+}
+
+.form p a {
+	color: var(--white);
+}
+
+.footer-margin-down {
+	padding-top: 15px;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+}
+
+.footer-margin-p {
+	margin: 10px 0 12px;
+}

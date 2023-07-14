@@ -17,16 +17,14 @@
   
   
   a,
+  a:focus,
   a:visited,
-  a:hover {
+  a:hover,
+  a:active {
 	  text-decoration: none;
+
+	  /* outline: none; */
 	  color: #000;
-	}
-	
-	a:focus,
-	a:active {
-		outline: none;
-		color: #000;
 	}
 
   nav,
