@@ -13,6 +13,7 @@ _____________
 
 ##### Использовано:
 - Figma
+- Pixel Perfect
 - HTML5
 - CSS3
 - FlexBox
