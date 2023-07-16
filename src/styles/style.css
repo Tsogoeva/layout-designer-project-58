@@ -120,7 +120,7 @@ h2 {
 }
 
 .text-white-translucent {
-  color: var(--white-translucent)
+  color: var(--white-translucent);
 }
 
 .title {
@@ -173,14 +173,14 @@ h2 {
   flex-direction: column;
   justify-content: center;
 }
-  
+
 .flex-wrap {
   /* stylelint-disable-next-line declaration-block-no-redundant-longhand-properties */
   flex-wrap: wrap;
 }
 
 .flex-items-center {
-	align-items: center;
+  align-items: center;
 }
 
 /** STRUCTURE **/
